@@ -1,0 +1,29 @@
+.hero-content {
+    position: relative;
+    z-index: 3;
+}
+.hero-content-shap {
+    position: absolute;
+    top: 0;
+    left: -330px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero-content-shap {
+        left: -100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hero-content-shap {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .hero-content-shap-2 {
+        display: none;
+    }
+}
