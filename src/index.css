@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:'Geologica', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
@@ -8,10 +12,21 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+/* Active text color */
+.active {
+  color: #FE5D26;
+}
+/* background */
+.btn-bg-primary {
+  background-color: #FE5D26;
+}
 .bg-primary {
-  background-color: #FE7F32;
+  background-color: #C1DBB3;
+}
+.bg-secondary {
+  background-color: #7EBC89;
+}
+/* Text color */
+.text-primary {
+  color: #FE5D26;
 }
