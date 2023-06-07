@@ -24,7 +24,7 @@ export default function Header() {
                     <VscMenu onClick={handleToggle} className={`text-2xl cursor-pointer ${!show ? 'text-primary': ''}`}></VscMenu>
                 </div>
             </div>
-            <div className={`bg-white md:bg-transparent absolute md:static w-full md:w-auto left-0 px-5 py-4 ${!show ? 'block' : 'hidden md:block'}`}>
+            <div className={`bg-white md:bg-transparent absolute md:static w-full md:w-auto left-0 px-5 py-4 ${!show ? 'block z-10' : 'hidden md:block'}`}>
                 <div className='md:flex items-center gap-10'>
                     <ul className='md:flex md:gap-8'>
                         <li className='font-semibold my-3 md:my-0 border-b border-gray-200 md:border-0 pb-2 md:pb-0 hover:text-[#FE5D26] transition duration-300'><NavLink to="/">Home</NavLink></li>

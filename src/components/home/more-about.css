@@ -1,0 +1,14 @@
+.counter-text {
+    -webkit-text-stroke-width: 2px;
+    stroke-width: 2px;
+    -webkit-text-stroke-color: #FE5D26;
+    stroke: #FE5D26;
+    font-size: 80px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 85px;
+    margin-bottom: 4px;
+}
+.counter-wrap:hover .counter-text {
+    color: #FE5D26;
+}
