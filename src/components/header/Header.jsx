@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Logo from "../../assets/logo.jpg"
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { VscMenu } from "react-icons/vsc";
 
 
@@ -18,7 +18,7 @@ export default function Header() {
         <div className='max-w-[1300px] mx-auto md:h-[100px] md:flex items-center justify-between overflow-hidden'>
             <div className='flex md:flex-none items-center justify-between h-[60px] md:h-auto'>
                 <div>
-                    <img className='w-[120px]' src={Logo} alt="" />
+                    <Link to="/"><img className='w-[120px]' src={Logo} alt="" /></Link>
                 </div>
                 <div className='md:hidden'>
                     <VscMenu onClick={handleToggle} className={`text-2xl cursor-pointer ${!show ? 'text-primary': ''}`}></VscMenu>

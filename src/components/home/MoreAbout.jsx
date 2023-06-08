@@ -4,6 +4,7 @@ import DividerImg from '../../assets/divider-image.png'
 import BaristaImg from '../../assets/barista.webp'
 import '../home/more-about.css';
 import CountUp from 'react-countup';
+import { Link } from 'react-router-dom';
 
 function MoreAbout() {
   return (
@@ -17,9 +18,9 @@ function MoreAbout() {
           Atlantic Ocean. Our proximity of the sea and Portugal’s excellent
           produce.
         </p>
-        <button className="btn-bg-primary py-3 px-8 text-white rounded-sm">
+        <Link to="/about"><button className="btn-bg-primary py-3 px-8 text-white rounded-sm">
           More About Us
-        </button>
+        </button></Link>
       </div>
       <div className="lg:w-8/12 md:flex lg:justify-end justify-center gap-x-20 items-center">
         <div className="flex flex-col gap-9">
