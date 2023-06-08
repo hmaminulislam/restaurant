@@ -1,0 +1,10 @@
+.our-menu-section {
+    background-image: url('../../../assets/food-menu/menu-dark-bg1.png');
+    background-position: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(216, 216, 216, 0.137);
+}
+.caveat-font {
+    font-family: Caveat;
+}

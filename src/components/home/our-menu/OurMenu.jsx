@@ -1,38 +1,173 @@
 import React from 'react'
-import FoodMenu1 from '../../../assets/food-menu-1.jpg'
+import '../our-menu/our-menu.css'
+import FoodMenu1 from '../../../assets/food-menu/food-menu-1.jpg'
+import FoodMenu2 from '../../../assets/food-menu/food-menu-2.jpg'
+import FoodMenu3 from '../../../assets/food-menu/food-menu-3.jpg'
+import FoodMenu4 from '../../../assets/food-menu/food-menu-4.jpg'
+import FoodMenu5 from '../../../assets/food-menu/food-menu-5.jpg'
+import FoodMenu6 from '../../../assets/food-menu/food-menu-6.jpg'
+import FoodMenu7 from '../../../assets/food-menu/food-menu-7.jpg'
+import FoodMenu8 from '../../../assets/food-menu/food-menu-8.jpg'
 
 function OurMenu() {
-
-    const menus = {
-        
-    }
   return (
-    <div className='max-w-[1300px] mx-auto px-5'>
+    <div className='our-menu-section'>
+        <div className='max-w-[1300px] mx-auto px-5 py-20'>
         {/* section heading start */}
         <div className='text-center'>
-            <h4>From Our Menu</h4>
+            <h4 className='caveat-font text-3xl'>From Our Menu</h4>
             <h2 className='text-5xl font-semibold'>Delicious Food Forever</h2>
             <img src="" alt="" />
         </div>
         {/* section heading end */}
         {/* section menus */}
-        <div className='grid grid-cols-2'>
+        <div className='grid lg:grid-cols-2 grid-cols-1 gap-x-20 gap-y-14 sm:gap-y-10 mt-14'>
+            {/* single menu start */}
+            <div className='flex items-center gap-5'>
+                <div className='w-[90px]'>
+                    <img className='rounded-full' src={FoodMenu8} alt="" />
+                </div>
+                <div className='w-full'>
+                    <div className='sm:flex justify-between items-center gap-2 mb-2'>
+                        <h3 className='text-2xl font-semibold'>Raw Scallops from Erquy</h3>
+                        <div className='border-b grow hidden sm:block'></div>
+                        <div className='flex sm:flex-none justify-between items-center gap-4'>
+                            <div className='border-b w-full'></div>
+                            <p className='text-primary'>$32.08</p>
+                        </div>
+                    </div>
+                    <p>Candied Jerusalem artichokes, truffle</p>
+                </div>
+            </div>
+            {/* single menu end */}
             {/* single menu start */}
             <div className='flex items-center gap-5'>
                 <div className='w-[90px]'>
                     <img className='rounded-full' src={FoodMenu1} alt="" />
                 </div>
                 <div className='w-full'>
-                    <div className='flex justify-between items-center gap-2 mb-2'>
-                        <h3 className='text-2xl font-semibold'>Raw Scallops from Erquy</h3>
-                        <div className='border border-gray-600 grow'></div>
-                        <p className='text-primary'>$32.08</p>
+                    <div className='sm:flex justify-between items-center gap-2 mb-2'>
+                        <h3 className='text-2xl font-semibold'>Greek Salab</h3>
+                        <div className='border-b grow hidden sm:block'></div>
+                        <div className='flex sm:flex-none justify-between items-center gap-4'>
+                            <div className='border-b w-full'></div>
+                            <p className='text-primary'>$40.02</p>
+                        </div>
+                    </div>
+                    <p>Candied Jerusalem artichokes, truffle</p>
+                </div>
+            </div>
+            {/* single menu end */}
+            {/* single menu start */}
+            <div className='flex items-center gap-5'>
+                <div className='w-[90px]'>
+                    <img className='rounded-full' src={FoodMenu2} alt="" />
+                </div>
+                <div className='w-full'>
+                    <div className='sm:flex justify-between items-center gap-2 mb-2'>
+                        <h3 className='text-2xl font-semibold'>Tender Octopus and Fennel</h3>
+                        <div className='border-b grow hidden sm:block'></div>
+                        <div className='flex sm:flex-none justify-between items-center gap-4'>
+                            <div className='border-b w-full'></div>
+                            <p className='text-primary'>$22.04</p>
+                        </div>
+                    </div>
+                    <p>Candied Jerusalem artichokes, truffle</p>
+                </div>
+            </div>
+            {/* single menu end */}
+            {/* single menu start */}
+            <div className='flex items-center gap-5'>
+                <div className='w-[90px]'>
+                    <img className='rounded-full' src={FoodMenu3} alt="" />
+                </div>
+                <div className='w-full'>
+                    <div className='sm:flex justify-between items-center gap-2 mb-2'>
+                        <h3 className='text-2xl font-semibold'>Celeriac and Truffle Ravioli</h3>
+                        <div className='border-b grow hidden sm:block'></div>
+                        <div className='flex sm:flex-none justify-between items-center gap-4'>
+                            <div className='border-b w-full'></div>
+                            <p className='text-primary'>$28.06</p>
+                        </div>
+                    </div>
+                    <p>Candied Jerusalem artichokes, truffle</p>
+                </div>
+            </div>
+            {/* single menu end */}
+            {/* single menu start */}
+            <div className='flex items-center gap-5'>
+                <div className='w-[90px]'>
+                    <img className='rounded-full' src={FoodMenu4} alt="" />
+                </div>
+                <div className='w-full'>
+                    <div className='sm:flex justify-between items-center gap-2 mb-2'>
+                        <h3 className='text-2xl font-semibold'>Broccoli and Chorizo Fritters</h3>
+                        <div className='border-b grow hidden sm:block'></div>
+                        <div className='flex sm:flex-none justify-between items-center gap-4'>
+                            <div className='border-b w-full'></div>
+                            <p className='text-primary'>$40.02</p>
+                        </div>
+                    </div>
+                    <p>Candied Jerusalem artichokes, truffle</p>
+                </div>
+            </div>
+            {/* single menu end */}
+            {/* single menu start */}
+            <div className='flex items-center gap-5'>
+                <div className='w-[90px]'>
+                    <img className='rounded-full' src={FoodMenu5} alt="" />
+                </div>
+                <div className='w-full'>
+                    <div className='sm:flex justify-between items-center gap-2 mb-2'>
+                        <h3 className='text-2xl font-semibold'>Peri peri chicken burger</h3>
+                        <div className='border-b grow hidden sm:block'></div>
+                        <div className='flex sm:flex-none justify-between items-center gap-4'>
+                            <div className='border-b w-full'></div>
+                            <p className='text-primary'>$30.02</p>
+                        </div>
+                    </div>
+                    <p>Candied Jerusalem artichokes, truffle</p>
+                </div>
+            </div>
+            {/* single menu end */}
+            {/* single menu start */}
+            <div className='flex items-center gap-5'>
+                <div className='w-[90px]'>
+                    <img className='rounded-full' src={FoodMenu6} alt="" />
+                </div>
+                <div className='w-full'>
+                    <div className='sm:flex justify-between items-center gap-2 mb-2'>
+                        <h3 className='text-2xl font-semibold'>Chicken & Sundried tomato</h3>
+                        <div className='border-b grow hidden sm:block'></div>
+                        <div className='flex sm:flex-none justify-between items-center gap-4'>
+                            <div className='border-b w-full'></div>
+                            <p className='text-primary'>$40.02</p>
+                        </div>
+                    </div>
+                    <p>Candied Jerusalem artichokes, truffle</p>
+                </div>
+            </div>
+            {/* single menu end */}
+            {/* single menu start */}
+            <div className='flex items-center gap-5'>
+                <div className='w-[90px]'>
+                    <img className='rounded-full' src={FoodMenu7} alt="" />
+                </div>
+                <div className='w-full'>
+                    <div className='sm:flex justify-between items-center gap-2 mb-2'>
+                        <h3 className='text-2xl font-semibold'>Bruno's Scribble</h3>
+                        <div className='border-b grow hidden sm:block'></div>
+                        <div className='flex sm:flex-none justify-between items-center gap-4'>
+                            <div className='border-b w-full'></div>
+                            <p className='text-primary'>$32.08</p>
+                        </div>
                     </div>
                     <p>Candied Jerusalem artichokes, truffle</p>
                 </div>
             </div>
             {/* single menu end */}
         </div>
+    </div>
     </div>
   )
 }
