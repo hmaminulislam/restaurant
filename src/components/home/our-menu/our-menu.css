@@ -8,3 +8,13 @@
 .caveat-font {
     font-family: Caveat;
 }
+
+/* Menu item Hover */
+.menu-item-hover:hover .menu-item-title{
+    color: #FE5D26;
+    transition: 0.3s;
+}
+.menu-item-hover:hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
