@@ -15,7 +15,7 @@ function OurService() {
   return (
     <div className="max-w-[1300px] mx-auto px-5 py-20">
       {/* section heading start */}
-      <div className="text-center w-[450px] mx-auto">
+      <div className="text-center max-w-[450px] mx-auto">
         <h4 className="caveat-font text-3xl text-primary">
           Corporate Applications
         </h4>
