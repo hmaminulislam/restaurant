@@ -1,6 +1,6 @@
 import ServiceDivider from "../../../assets/our-services/sec-title-1.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper";
+import { Navigation, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import SliderImage1 from '../../../assets/our-services/service-img-1.jpg';
@@ -28,21 +28,15 @@ function OurService() {
       {/* section heading end  */}
 
       {/* slider start */}
-      <div className="mt-24 md:w-[720px] lg:w-full mx-auto">
+      <div className="mt-24 md:w-[720px] lg:w-full mx-auto md:px-2 px-0">
         <Swiper
           slidesPerView={1}
           spaceBetween={10}
           navigation={true}
-          loop={true}
-          autoplay={{
-            delay: 500,
-            disableOnInteraction: false,
-            speed: 4000
-          }}
-          // speed={400}
-          pagination={{
-            clickable: true,
-          }}
+          // autoplay={{
+          // delay: 2500,
+          // disableOnInteraction: false,
+          // }}
           breakpoints={{
             "@0.00": {
               slidesPerView: 1,
@@ -61,7 +55,7 @@ function OurService() {
               spaceBetween: 50,
             },
           }}
-          modules={[Navigation]}
+          modules={[Navigation, Autoplay]}
           className="mySwiper"
         >
           {/* slider item start */}
