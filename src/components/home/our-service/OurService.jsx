@@ -7,6 +7,7 @@ import SliderImage1 from '../../../assets/our-services/service-img-1.jpg';
 import SliderImage2 from '../../../assets/our-services/service-img-2.jpg';
 import SliderImage3 from "../../../assets/our-services/service-img-3.jpg";
 import SliderImage4 from "../../../assets/our-services/service-img-4.jpg";
+import SliderImage5 from "../../../assets/our-services/service-img-5.png";
 import '../our-service/our-service.css';
 import { MdKeyboardArrowRight } from "react-icons/md";
 
@@ -33,10 +34,10 @@ function OurService() {
           slidesPerView={1}
           spaceBetween={10}
           navigation={true}
-          // autoplay={{
-          // delay: 2500,
-          // disableOnInteraction: false,
-          // }}
+          autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+          }}
           breakpoints={{
             "@0.00": {
               slidesPerView: 1,
@@ -149,6 +150,29 @@ function OurService() {
             </div>
           </SwiperSlide>
           {/* slider item end  */}
+          {/* slider item start */}
+          <SwiperSlide>
+            <div className="slider-item-wrap relative">
+              <div className="slider-img-wrap">
+                <img className="w-full slider-img" src={SliderImage5} alt="" />
+              </div>
+              <div className="py-10 px-5 bg-white ">
+                <h3 className="slider-title text-primary font-[300]">
+                Reservation Table
+                </h3>
+                <p className="text-gray-500 font-[300]">
+                  Continually utilize team building niche markets before
+                  visionary catalysts for change.
+                </p>
+                <MdKeyboardArrowRight className="w-[50px] h-[50px] border p-3 bg-white rounded-full absolute z-40 bottom-[-30px] left-14 service-round-btn"></MdKeyboardArrowRight>
+                <button className="flex items-center gap-2 btn-bg-primary ps-6 pe-5 py-3 text-white rounded-full service-learn-btn absolute z-40">
+                  Learn More <MdKeyboardArrowRight className="text-[20px]" />
+                </button>
+              </div>
+            </div>
+          </SwiperSlide>
+          {/* slider item end  */}
+
         </Swiper>
       </div>
       {/* slider end */}
