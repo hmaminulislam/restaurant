@@ -3,6 +3,7 @@ import MoreAbout from '../home/more-about/MoreAbout'
 import OurMenu from './our-menu/OurMenu'
 import OurService from './our-service/OurService'
 import OurStory from './our-story/OurStory'
+import Testimonial from './testimonial/Testimonial'
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
       <MoreAbout/>
       <OurMenu />
       <OurService/>
-      <OurStory/>
+      <OurStory />
+      <Testimonial/>
     </div>
   )
 }

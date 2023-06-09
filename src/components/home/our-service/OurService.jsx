@@ -57,7 +57,7 @@ function OurService() {
             },
           }}
           modules={[Navigation, Autoplay]}
-          className="mySwiper"
+          className="our-service-swiper"
         >
           {/* slider item start */}
           <SwiperSlide>
