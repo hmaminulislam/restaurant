@@ -4,6 +4,7 @@ import AboutImg1 from '../../../assets/our-story/about-1.png';
 import AboutImg2 from '../../../assets/our-story/about-2.png';
 import ShapImg from '../../../assets/our-story/shape-2.png';
 import VictorImg from '../../../assets/our-story/vector-1.png';
+import Slide from 'react-reveal/Slide';
 
 function OurStory() {
   return (
@@ -21,8 +22,10 @@ function OurStory() {
 
             {/* Our story right start */}
             <div className='w-1/2 relative'>
-                <div className='w-[500px] h-[500px] bg-[#C1DBB3] rounded-full absolute z-[-1] left-[10%]'></div>
-                <img className='z-10' src={AboutImg1} alt="" />
+                <div className='w-[500px] h-[500px] bg-[#C1DBB3] rounded-full absolute z-[-1] left-[10%]'></div> 
+                <Slide bottom>
+                    <img className='z-10' src={AboutImg1} alt="" />
+                </Slide>
                 <img className='absolute right-[-40px] top-40' src={AboutImg2} alt="" />
                 <img className='absolute right-0 top-[-40px]' src={ShapImg} alt="" />
                 <img className='absolute left-0 top-[230px]' src={VictorImg} alt="" />
