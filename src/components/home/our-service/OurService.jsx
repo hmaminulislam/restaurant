@@ -19,7 +19,7 @@ function OurService() {
         <h4 className="caveat-font text-3xl text-primary">
           Corporate Applications
         </h4>
-        <h2 className="text-5xl font-semibold my-4">Our Services</h2>
+        <h2 className="text-4xl sm:text-5xl font-semibold my-4">Our Services</h2>
         <p>
           Assertively myocardinate robust e-tailers for extensible human
           capital. dpropriately benchmark networks.

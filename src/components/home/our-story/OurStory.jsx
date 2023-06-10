@@ -13,7 +13,7 @@ function OurStory() {
             {/* Our story left start */}
             <div className='lg:w-1/2 max-w-[600px] text-center lg:text-left md:mx-auto lg:mx-0'>
                 <h4 className="caveat-font text-3xl text-primary">Our Story</h4>
-                <h2 className="text-5xl font-semibold my-4">Traditional & Modern Service <span className='text-primary'>Since 2004</span> </h2>
+                <h2 className="sm:text-5xl text-4xl font-semibold my-4">Traditional & Modern Service <span className='text-primary'>Since 2004</span> </h2>
                 <p className='font-[300] my-10'>Ut neque turpis dolor sit amet consectetur adipiscing elit purus egestas diam sit vitae egestas suspendisse amet ultricies eu. Eget at porttitor morbi blandit ac vitae, dolor. Gravida eu vel ac luctus. Hac a vel est malesuada tellus sed nunc, etiam maecenas.</p>
                 <img className='mb-10 mx-auto lg:mx-0' src={Signature} alt="" />
                 <button className='btn-bg-primary ps-6 pe-5 py-3 text-white rounded-full'>Our Story</button>

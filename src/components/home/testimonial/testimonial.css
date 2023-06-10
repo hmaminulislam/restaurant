@@ -1,3 +1,57 @@
 .testimonial {
      background-color: rgba(216, 216, 216, 0.137);
 }
+.tesimonial-slider {
+     position: relative;
+}
+.testimonial-swiper .swiper-button-next:after, .swiper-button-prev:after {
+    color: #fff;
+    font-size: 20px;
+}
+.testimonial-swiper .swiper-button-next, .swiper-button-prev {
+    background-color: #FE5D26;
+    border: 1px solid #FE5D26;
+    width: 50px;
+    height: 50px;
+}
+
+.testimonial-swiper .swiper-button-next {
+     position: absolute;
+     top: auto;
+     right: 80px;
+     bottom: 0;
+}
+
+.testimonial-swiper .swiper-button-prev {
+     position: absolute;
+     top: auto;
+     right: 150px;
+     left: auto;
+     bottom: 0;
+}
+
+/* Testimonial Slider Responsive */
+
+@media screen and (max-width:768px) {
+     .testimonial-swiper .swiper-button-next, .swiper-button-prev {
+    width: 45px;
+    height: 45px;
+}
+.testimonial-swiper .swiper-button-next {
+     right: 10px;
+}
+
+.testimonial-swiper .swiper-button-prev {
+     right: 70px;
+}
+}
+
+@media screen and (max-width:640px) {
+.testimonial-swiper .swiper-button-next {
+     right: 5px;
+}
+
+.testimonial-swiper .swiper-button-prev {
+     right: 60px;
+}
+}

@@ -7,6 +7,7 @@ import FoodMenu5 from '../../../assets/food-menu/food-menu-5.jpg'
 import FoodMenu6 from '../../../assets/food-menu/food-menu-6.jpg'
 import FoodMenu7 from '../../../assets/food-menu/food-menu-7.jpg'
 import FoodMenu8 from '../../../assets/food-menu/food-menu-8.jpg'
+import ServiceDivider from "../../../assets/our-services/sec-title-1.png";
 
 function OurMenu() {
   return (
@@ -15,8 +16,8 @@ function OurMenu() {
         {/* section heading start */}
         <div className="text-center">
           <h4 className="caveat-font text-3xl text-primary">From Our Menu</h4>
-          <h2 className="text-5xl font-semibold">Delicious Food Forever</h2>
-          <img src="" alt="" />
+          <h2 className="text-4xl sm:text-5xl font-semibold my-4">Delicious Food Forever</h2>
+          <img className='mx-auto mb-4' src={ServiceDivider} alt="" />
         </div>
         {/* section heading end */}
         {/* section menus */}
@@ -28,16 +29,16 @@ function OurMenu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
                   Raw Scallops from Erquy
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
                 <div className="flex sm:flex-none justify-between items-center gap-4">
                   <div className="border-b w-full"></div>
-                  <p className="text-primary">$32.08</p>
+                  <p className="text-primary font-[500]">$32.08</p>
                 </div>
               </div>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           {/* single menu end */}
@@ -48,14 +49,14 @@ function OurMenu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-2xl font-semibold menu-item-title">Greek Salab</h3>
+                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">Greek Salab</h3>
                 <div className="border-b grow hidden sm:block"></div>
                 <div className="flex sm:flex-none justify-between items-center gap-4">
                   <div className="border-b w-full"></div>
-                  <p className="text-primary">$40.02</p>
+                  <p className="text-primary font-[500]">$40.02</p>
                 </div>
               </div>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           {/* single menu end */}
@@ -66,16 +67,16 @@ function OurMenu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
                   Tender Octopus and Fennel
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
                 <div className="flex sm:flex-none justify-between items-center gap-4">
                   <div className="border-b w-full"></div>
-                  <p className="text-primary">$22.04</p>
+                  <p className="text-primary font-[500]">$22.04</p>
                 </div>
               </div>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           {/* single menu end */}
@@ -86,16 +87,16 @@ function OurMenu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
                   Celeriac and Truffle Ravioli
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
                 <div className="flex sm:flex-none justify-between items-center gap-4">
                   <div className="border-b w-full"></div>
-                  <p className="text-primary">$28.06</p>
+                  <p className="text-primary font-[500]">$28.06</p>
                 </div>
               </div>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           {/* single menu end */}
@@ -106,16 +107,16 @@ function OurMenu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
                   Broccoli and Chorizo Fritters
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
                 <div className="flex sm:flex-none justify-between items-center gap-4">
                   <div className="border-b w-full"></div>
-                  <p className="text-primary">$40.02</p>
+                  <p className="text-primary font-[500]">$40.02</p>
                 </div>
               </div>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           {/* single menu end */}
@@ -126,16 +127,16 @@ function OurMenu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
                   Peri peri chicken burger
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
                 <div className="flex sm:flex-none justify-between items-center gap-4">
                   <div className="border-b w-full"></div>
-                  <p className="text-primary">$30.02</p>
+                  <p className="text-primary font-[500]">$30.02</p>
                 </div>
               </div>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           {/* single menu end */}
@@ -146,16 +147,16 @@ function OurMenu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
                   Chicken & Sundried tomato
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
                 <div className="flex sm:flex-none justify-between items-center gap-4">
                   <div className="border-b w-full"></div>
-                  <p className="text-primary">$40.02</p>
+                  <p className="text-primary font-[500]">$40.02</p>
                 </div>
               </div>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           {/* single menu end */}
@@ -166,16 +167,16 @@ function OurMenu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
                   Bruno&apos;s Scribble
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
                 <div className="flex sm:flex-none justify-between items-center gap-4">
                   <div className="border-b w-full"></div>
-                  <p className="text-primary">$32.08</p>
+                  <p className="text-primary font-[500]">$32.08</p>
                 </div>
               </div>
-              <p>Candied Jerusalem artichokes, truffle</p>
+              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
             </div>
           </div>
           {/* single menu end */}
