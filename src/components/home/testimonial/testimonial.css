@@ -4,6 +4,9 @@
 .tesimonial-slider {
      position: relative;
 }
+.testimon-divider {
+     border: 1px solid rgba(237, 237, 237, 0.443);
+}
 .testimonial-swiper .swiper-button-next:after, .swiper-button-prev:after {
     color: #fff;
     font-size: 20px;

@@ -4,6 +4,7 @@ import OurMenu from './our-menu/OurMenu'
 import OurService from './our-service/OurService'
 import OurStory from './our-story/OurStory'
 import Testimonial from './testimonial/Testimonial'
+import Blog from './blog/Blog'
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
       <OurMenu />
       <OurService/>
       <OurStory />
-      <Testimonial/>
+      <Testimonial />
+      <Blog/>
     </div>
   )
 }

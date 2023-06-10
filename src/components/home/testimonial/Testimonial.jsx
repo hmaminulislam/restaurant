@@ -65,7 +65,7 @@ function Testimonial() {
                         don’t look even slightly believable. If you are going to
                         use a passage.
                       </p>
-                      <div className="border mt-8 mb-6"></div>
+                      <div className="mt-8 mb-6 testimon-divider"></div>
                       <h4 className="text-[22px] font-semibold">Charles</h4>
                       <p className="text-primary">Canada</p>
                     </div>
@@ -98,7 +98,7 @@ function Testimonial() {
                         don’t look even slightly believable. If you are going to
                         use a passage.
                       </p>
-                      <div className="border mt-8 mb-6"></div>
+                      <div className="mt-8 mb-6 testimon-divider"></div>
                       <h4 className="text-[22px] font-semibold">Westover</h4>
                       <p className="text-primary">America</p>
                     </div>
@@ -131,7 +131,7 @@ function Testimonial() {
                         don’t look even slightly believable. If you are going to
                         use a passage.
                       </p>
-                      <div className="border mt-8 mb-6"></div>
+                      <div className="mt-8 mb-6 testimon-divider"></div>
                       <h4 className="text-[22px] font-semibold">
                         Angela Stanton
                       </h4>
@@ -166,7 +166,7 @@ function Testimonial() {
                         don’t look even slightly believable. If you are going to
                         use a passage.
                       </p>
-                      <div className="border mt-8 mb-6"></div>
+                      <div className="mt-8 mb-6 testimon-divider"></div>
                       <h4 className="text-[22px] font-semibold">Schubert</h4>
                       <p className="text-primary">London</p>
                     </div>
