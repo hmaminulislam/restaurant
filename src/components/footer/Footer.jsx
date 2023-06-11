@@ -10,6 +10,7 @@ import {
   FaEnvelope,
 } from "react-icons/fa";
 import '../footer/footer.css'
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -45,12 +46,22 @@ function Footer() {
           <div>
             <h4 className="footer-heading">Short Link</h4>
             <div className="mt-4">
-              <ul className="flex flex-col gap-3">
-                <li>Home</li>
-                <li>Our Menu</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Blog</li>
+              <ul className="flex flex-col gap-3 list-[square] ml-6">
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/our-menu">Our Menu</Link>
+                </li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+                <li>
+                  <Link to="/blog">Blog</Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -58,7 +69,7 @@ function Footer() {
           <div>
             <h4 className="footer-heading">Help Link</h4>
             <div className="mt-4">
-              <ul className="flex flex-col gap-3">
+              <ul className="flex flex-col gap-3 list-[square] ml-6">
                 <li>Terms & Conditions</li>
                 <li>Privacy Policy</li>
                 <li>Refund Policy</li>
@@ -84,7 +95,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className='text-center mx-auto max-w-[1200px]'>
+        <div className="text-center mx-auto max-w-[1200px]">
           <div className="border-b"></div>
           <p className="mt-8 pb-6 font-[300]">Copyright All Right Reserved.</p>
         </div>

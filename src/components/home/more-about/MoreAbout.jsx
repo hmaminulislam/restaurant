@@ -5,19 +5,27 @@ import '../more-about/more-about.css';
 import CountUp from 'react-countup';
 import { Link } from 'react-router-dom';
 import VisibilitySensor from 'react-visibility-sensor';
+import { Fade } from "react-reveal";
 
 function MoreAbout() {
   return (
     <div className="max-w-[1300px] mx-auto lg:flex justify-between items-center my-20 px-5">
       <div className="lg:w-4/12 md:w-4/6 mx-auto text-center mb-20 lg-mb-0">
         <img className="mx-auto" src={TitleImg} alt="" />
-        <h3 className="text-3xl font-semibold mt-8">More About Dinenos Café</h3>
+        <Fade bottom>
+          <h3 className="text-3xl font-semibold mt-8">
+            More About Dinenos Café
+          </h3>
+        </Fade>
         <img className="w-[100px] mx-auto my-6" src={DividerImg} alt="" />
-        <p className="text-lg mb-8">
-          It’s the story of an everlasting love affair, Dieter Delicioz and the
-          Atlantic Ocean. Our proximity of the sea and Portugal’s excellent
-          produce.
-        </p>
+        <Fade bottom>
+          {" "}
+          <p className="text-lg mb-8">
+            It’s the story of an everlasting love affair, Dieter Delicioz and
+            the Atlantic Ocean. Our proximity of the sea and Portugal’s
+            excellent produce.
+          </p>
+        </Fade>
         <Link to="/about">
           <button className="btn-bg-primary py-3 px-8 text-white rounded-sm">
             More About Us

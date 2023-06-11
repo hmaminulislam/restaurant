@@ -10,20 +10,29 @@ import SliderImage4 from "../../../assets/our-services/service-img-4.jpg";
 import SliderImage5 from "../../../assets/our-services/service-img-5.png";
 import '../our-service/our-service.css';
 import { MdKeyboardArrowRight } from "react-icons/md";
+import { Fade } from "react-reveal";
 
 function OurService() {
   return (
     <div className="max-w-[1300px] mx-auto px-5 py-20">
       {/* section heading start */}
       <div className="text-center max-w-[450px] mx-auto">
-        <h4 className="caveat-font text-3xl text-primary">
-          Corporate Applications
-        </h4>
-        <h2 className="text-4xl sm:text-5xl font-semibold my-4">Our Services</h2>
-        <p>
-          Assertively myocardinate robust e-tailers for extensible human
-          capital. dpropriately benchmark networks.
-        </p>
+        <Fade bottom>
+          <h4 className="caveat-font text-3xl text-primary">
+            Corporate Applications
+          </h4>
+        </Fade>
+        <Fade bottom>
+          <h2 className="text-4xl sm:text-5xl font-semibold my-4">
+            Our Services
+          </h2>
+        </Fade>
+        <Fade bottom>
+          <p>
+            Assertively myocardinate robust e-tailers for extensible human
+            capital. dpropriately benchmark networks.
+          </p>
+        </Fade>
         <img className="mx-auto mt-8" src={ServiceDivider} alt="" />
       </div>
       {/* section heading end  */}
@@ -35,8 +44,8 @@ function OurService() {
           spaceBetween={10}
           navigation={true}
           autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
+            delay: 2500,
+            disableOnInteraction: false,
           }}
           breakpoints={{
             "@0.00": {
@@ -158,7 +167,7 @@ function OurService() {
               </div>
               <div className="py-10 px-5 bg-white ">
                 <h3 className="slider-title text-primary font-[300]">
-                Reservation Table
+                  Reservation Table
                 </h3>
                 <p className="text-gray-500 font-[300]">
                   Continually utilize team building niche markets before
@@ -172,7 +181,6 @@ function OurService() {
             </div>
           </SwiperSlide>
           {/* slider item end  */}
-
         </Swiper>
       </div>
       {/* slider end */}

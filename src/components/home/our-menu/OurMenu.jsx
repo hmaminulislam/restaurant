@@ -8,6 +8,7 @@ import FoodMenu6 from '../../../assets/food-menu/food-menu-6.jpg'
 import FoodMenu7 from '../../../assets/food-menu/food-menu-7.jpg'
 import FoodMenu8 from '../../../assets/food-menu/food-menu-8.jpg'
 import ServiceDivider from "../../../assets/our-services/sec-title-1.png";
+import { Fade } from 'react-reveal'
 
 function OurMenu() {
   return (
@@ -15,9 +16,17 @@ function OurMenu() {
       <div className="max-w-[1300px] mx-auto px-5 py-20">
         {/* section heading start */}
         <div className="text-center">
-          <h4 className="caveat-font text-3xl text-primary">From Our Menu</h4>
-          <h2 className="text-4xl sm:text-5xl font-semibold my-4">Delicious Food Forever</h2>
-          <img className='mx-auto mb-4' src={ServiceDivider} alt="" />
+          <Fade bottom>
+            <h4 className="caveat-font text-3xl text-primary">From Our Menu</h4>
+          </Fade>
+          <Fade bottom>
+            <h2 className="text-4xl sm:text-5xl font-semibold my-4">
+              Delicious Food Forever
+            </h2>
+          </Fade>
+          <Fade bottom>
+            <img className="mx-auto mb-4" src={ServiceDivider} alt="" />
+          </Fade>
         </div>
         {/* section heading end */}
         {/* section menus */}
@@ -38,7 +47,9 @@ function OurMenu() {
                   <p className="text-primary font-[500]">$32.08</p>
                 </div>
               </div>
-              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
+              <p className="font-[300]">
+                Candied Jerusalem artichokes, truffle
+              </p>
             </div>
           </div>
           {/* single menu end */}
@@ -49,14 +60,18 @@ function OurMenu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">Greek Salab</h3>
+                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
+                  Greek Salab
+                </h3>
                 <div className="border-b grow hidden sm:block"></div>
                 <div className="flex sm:flex-none justify-between items-center gap-4">
                   <div className="border-b w-full"></div>
                   <p className="text-primary font-[500]">$40.02</p>
                 </div>
               </div>
-              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
+              <p className="font-[300]">
+                Candied Jerusalem artichokes, truffle
+              </p>
             </div>
           </div>
           {/* single menu end */}
@@ -76,7 +91,9 @@ function OurMenu() {
                   <p className="text-primary font-[500]">$22.04</p>
                 </div>
               </div>
-              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
+              <p className="font-[300]">
+                Candied Jerusalem artichokes, truffle
+              </p>
             </div>
           </div>
           {/* single menu end */}
@@ -96,7 +113,9 @@ function OurMenu() {
                   <p className="text-primary font-[500]">$28.06</p>
                 </div>
               </div>
-              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
+              <p className="font-[300]">
+                Candied Jerusalem artichokes, truffle
+              </p>
             </div>
           </div>
           {/* single menu end */}
@@ -116,7 +135,9 @@ function OurMenu() {
                   <p className="text-primary font-[500]">$40.02</p>
                 </div>
               </div>
-              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
+              <p className="font-[300]">
+                Candied Jerusalem artichokes, truffle
+              </p>
             </div>
           </div>
           {/* single menu end */}
@@ -136,7 +157,9 @@ function OurMenu() {
                   <p className="text-primary font-[500]">$30.02</p>
                 </div>
               </div>
-              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
+              <p className="font-[300]">
+                Candied Jerusalem artichokes, truffle
+              </p>
             </div>
           </div>
           {/* single menu end */}
@@ -156,7 +179,9 @@ function OurMenu() {
                   <p className="text-primary font-[500]">$40.02</p>
                 </div>
               </div>
-              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
+              <p className="font-[300]">
+                Candied Jerusalem artichokes, truffle
+              </p>
             </div>
           </div>
           {/* single menu end */}
@@ -176,7 +201,9 @@ function OurMenu() {
                   <p className="text-primary font-[500]">$32.08</p>
                 </div>
               </div>
-              <p className='font-[300]'>Candied Jerusalem artichokes, truffle</p>
+              <p className="font-[300]">
+                Candied Jerusalem artichokes, truffle
+              </p>
             </div>
           </div>
           {/* single menu end */}

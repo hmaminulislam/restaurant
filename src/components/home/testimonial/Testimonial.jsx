@@ -8,6 +8,7 @@ import ClientImg1 from '../../../assets/testimonial/client-1.png';
 import ClientImg2 from '../../../assets/testimonial/client-2.png';
 import ClientImg3 from '../../../assets/testimonial/client-3.png';
 import ClientImg4 from '../../../assets/testimonial/client-4.png';
+import { Fade } from "react-reveal";
 
 function Testimonial() {
 
@@ -17,12 +18,16 @@ function Testimonial() {
           <div className="lg:flex justify-between my-10">
             {/* Testimonial left start */}
             <div className="lg:max-w-[400px] lg:min-w-[250px] max-w-[350px] mx-auto text-center lg:mx-0 lg:text-left mb-12 lg:mb-0">
-              <h4 className="caveat-font text-3xl text-primary">
-                Our Testimonial
-              </h4>
-              <h3 className="text-4xl font-semibold mt-4">
-                Ehat That Say About Our Service
-              </h3>
+              <Fade bottom>
+                <h4 className="caveat-font text-3xl text-primary">
+                  Our Testimonial
+                </h4>
+              </Fade>
+              <Fade bottom>
+                <h3 className="text-4xl font-semibold mt-4">
+                  Ehat That Say About Our Service
+                </h3>
+              </Fade>
             </div>
             {/* Testimonial left end */}
 
