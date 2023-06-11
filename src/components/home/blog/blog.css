@@ -1,0 +1,28 @@
+.blog-box {
+    transition: all 0.4s ease;
+}
+.blog-box-img-wrap {
+    overflow: hidden;
+}
+.blog-box-img {
+    transition: all 0.4s ease;
+}
+.blog-box-title {
+    transition: all 0.4s ease;
+}
+.blog-box-btn {
+    transition: all 0.4s ease;
+}
+/* Hover */
+.blog-box:hover {
+    transform: translateY(-10px);
+}
+.blog-box:hover .blog-box-img {
+    transform: scale(1.02);
+}
+.blog-box-title:hover {
+    color: #FE5D26;
+}
+.blog-box-btn:hover {
+    color: #FE5D26;
+}
