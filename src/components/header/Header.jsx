@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import Logo from "../../assets/logo.jpg"
+import React, { useState } from 'react'
+import Logo from "../../assets/logos/logo.jpg"
 import { Link, NavLink } from 'react-router-dom';
 import { VscMenu } from "react-icons/vsc";
 
@@ -9,10 +9,6 @@ export default function Header() {
     const handleToggle = () => {
         setShow(!show)
     }
-    
-    useEffect(() => {
-        
-    }, [])
   return (
     <div className='bg-white px-5 relative'>
         <div className='max-w-[1300px] mx-auto md:h-[100px] md:flex items-center justify-between overflow-hidden'>
