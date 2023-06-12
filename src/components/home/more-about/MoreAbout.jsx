@@ -1,6 +1,6 @@
-import TitleImg from '../../../assets/title-shape.png'
-import DividerImg from '../../../assets/divider-image.png'
-import BaristaImg from '../../../assets/barista.webp'
+import TitleImg from '../../../assets/more-about/title-shape.png'
+import DividerImg from '../../../assets/more-about/divider-image.png'
+import BaristaImg from '../../../assets/more-about/barista.webp'
 import '../more-about/more-about.css';
 import CountUp from 'react-countup';
 import { Link } from 'react-router-dom';

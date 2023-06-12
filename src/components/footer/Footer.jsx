@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer-wrap">
       <div className="footer-overley">
         <div className="max-w-[1300px] mx-auto px-5 py-20 flex justify-between flex-wrap-reverse sm:flex-wrap gap-x-5 gap-y-10">
           <div className="max-w-[350px]">

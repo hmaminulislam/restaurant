@@ -1,16 +1,16 @@
-import '../our-menu/our-menu.css'
-import FoodMenu1 from '../../../assets/food-menu/food-menu-1.jpg'
-import FoodMenu2 from '../../../assets/food-menu/food-menu-2.jpg'
-import FoodMenu3 from '../../../assets/food-menu/food-menu-3.jpg'
-import FoodMenu4 from '../../../assets/food-menu/food-menu-4.jpg'
-import FoodMenu5 from '../../../assets/food-menu/food-menu-5.jpg'
-import FoodMenu6 from '../../../assets/food-menu/food-menu-6.jpg'
-import FoodMenu7 from '../../../assets/food-menu/food-menu-7.jpg'
-import FoodMenu8 from '../../../assets/food-menu/food-menu-8.jpg'
+import "./menu.css";
+import FoodMenu1 from "../../../assets/food-menu/food-menu-1.jpg";
+import FoodMenu2 from "../../../assets/food-menu/food-menu-2.jpg";
+import FoodMenu3 from "../../../assets/food-menu/food-menu-3.jpg";
+import FoodMenu4 from "../../../assets/food-menu/food-menu-4.jpg";
+import FoodMenu5 from "../../../assets/food-menu/food-menu-5.jpg";
+import FoodMenu6 from "../../../assets/food-menu/food-menu-6.jpg";
+import FoodMenu7 from "../../../assets/food-menu/food-menu-7.jpg";
+import FoodMenu8 from "../../../assets/food-menu/food-menu-8.jpg";
 import ServiceDivider from "../../../assets/our-services/sec-title-1.png";
-import { Fade } from 'react-reveal'
+import { Fade } from "react-reveal";
 
-function OurMenu() {
+function Menu() {
   return (
     <div className="our-menu-section">
       <div className="max-w-[1300px] mx-auto px-5 py-20">
@@ -213,4 +213,4 @@ function OurMenu() {
   );
 }
 
-export default OurMenu
+export default Menu;
