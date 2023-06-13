@@ -21,12 +21,15 @@ body {
   background-color: #FE5D26;
 }
 .bg-primary {
-  background-color: #C1DBB3;
+  background-color: #FE5D26;
 }
 .bg-secondary {
-  background-color: #7EBC89;
+  background-color: #212789;
 }
 /* Text color */
 .text-primary {
   color: #FE5D26;
+}
+.text-secondary {
+  color: #212789;
 }

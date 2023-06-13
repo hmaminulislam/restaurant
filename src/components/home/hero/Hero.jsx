@@ -18,7 +18,7 @@ function Hero() {
             </h2>
           </Fade>
           <Fade bottom>
-            <button className="btn-bg-primary text-white font-semibold py-[10px] px-6 rounded-sm">
+            <button className="bg-white text-primary font-semibold py-[10px] px-6 rounded-sm">
               Read More
             </button>
           </Fade>

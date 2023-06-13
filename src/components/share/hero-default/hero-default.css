@@ -1,0 +1,9 @@
+.hero-default {
+    background-image: url('../../../assets/hero-default/hero-bg.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-default-container {
+    height: 300px;
+}
