@@ -2,6 +2,12 @@ import "../our-team/our-team.css";
 import ChefImg1 from "../../../assets/about-us/our-team/chef-1.jpg";
 import ChefImg2 from "../../../assets/about-us/our-team/chef-2.jpg";
 import ChefImg3 from "../../../assets/about-us/our-team/chef-3.jpg";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaPinterestP,
+} from "react-icons/fa";
 function OurTeam() {
   return (
     <div className="max-w-[1300px] mx-auto px-5 py-20">
@@ -38,6 +44,20 @@ function OurTeam() {
                   Rosemarie Potter
                 </h4>
                 <p className="font-[500] text-white">Head of chef</p>
+                <div className="flex items-center gap-3 mt-3">
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#395693] rounded-full flex justify-center items-center">
+                    <FaFacebookF />
+                  </span>
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#E8001E] rounded-full flex justify-center items-center">
+                    <FaPinterestP />
+                  </span>
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#1C9CEB] rounded-full flex justify-center items-center">
+                    <FaTwitter />
+                  </span>
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#007AB5] rounded-full flex justify-center items-center">
+                    <FaLinkedinIn />
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -67,6 +87,20 @@ function OurTeam() {
               <div className="z-10 text-left">
                 <h4 className="text-2xl font-bold mb-1 text-white">Pat Paul</h4>
                 <p className="font-[500] text-white">Head of chef</p>
+                <div className="flex items-center gap-3 mt-3">
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#395693] rounded-full flex justify-center items-center">
+                    <FaFacebookF />
+                  </span>
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#E8001E] rounded-full flex justify-center items-center">
+                    <FaPinterestP />
+                  </span>
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#1C9CEB] rounded-full flex justify-center items-center">
+                    <FaTwitter />
+                  </span>
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#007AB5] rounded-full flex justify-center items-center">
+                    <FaLinkedinIn />
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -98,6 +132,20 @@ function OurTeam() {
                   Jordan Simmons
                 </h4>
                 <p className="font-[500] text-white">Head of chef</p>
+                <div className="flex items-center gap-3 mt-3">
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#395693] rounded-full flex justify-center items-center">
+                    <FaFacebookF />
+                  </span>
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#E8001E] rounded-full flex justify-center items-center">
+                    <FaPinterestP />
+                  </span>
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#1C9CEB] rounded-full flex justify-center items-center">
+                    <FaTwitter />
+                  </span>
+                  <span className="cursor-pointer text-white w-[30px] h-[30px] bg-[#007AB5] rounded-full flex justify-center items-center">
+                    <FaLinkedinIn />
+                  </span>
+                </div>
               </div>
             </div>
           </div>
