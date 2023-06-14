@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from "../../assets/logos/logo.jpg"
+import Logo from "../../assets/logos/logo.png"
 import { Link, NavLink } from 'react-router-dom';
 import { VscMenu } from "react-icons/vsc";
 import PopupImg from '../../assets/header/book-modal-bg.jpg';

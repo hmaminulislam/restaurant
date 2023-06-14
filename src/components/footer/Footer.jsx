@@ -1,4 +1,4 @@
-import Logo from '../../assets/logos/logo.jpg'
+import Logo from '../../assets/logos/logo-2.png'
 import { IoIosCall } from "react-icons/io";
 import { MdLocationPin } from "react-icons/md";
 import {
