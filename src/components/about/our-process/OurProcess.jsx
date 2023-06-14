@@ -1,4 +1,3 @@
-import React from 'react'
 import DividerImg from '../../../assets/our-services/sec-title-1.png';
 import ProcessImg1 from '../../../assets/about-us/our-process/process-1.jpg';
 import ProcessImg2 from '../../../assets/about-us/our-process/process-2.jpg';
@@ -23,7 +22,7 @@ function OurProcess() {
       {/* process boxes */}
       <div className="flex flex-col items-center md:items-start md:flex-row flex-wrap lg:flex-nowrap gap-14 mt-16">
         {/* prcess box start */}
-        <div className="border max-w-[384px]">
+        <div className="border max-w-[384px] md:w-[46%]">
           <div className="flex justify-between items-center px-5 mt-8">
             <img className="w-[70px]" src={ProcIcon1} alt="" />
             <h3 className="text-4xl bg-primary rounded-full w-[80px] h-[80px] flex items-center justify-center text-white font-bold">
@@ -46,7 +45,7 @@ function OurProcess() {
         {/* prcess box end */}
 
         {/* prcess box start */}
-        <div className="border max-w-[384px]">
+        <div className="border max-w-[384px] md:w-[46%]">
           <div className="flex justify-between items-center px-5 mt-8">
             <img className="w-[70px]" src={ProcIcon2} alt="" />
             <h3 className="text-4xl bg-primary rounded-full w-[80px] h-[80px] flex items-center justify-center text-white font-bold">
@@ -69,7 +68,7 @@ function OurProcess() {
         {/* prcess box end */}
 
         {/* prcess box start */}
-        <div className="border max-w-[384px]">
+        <div className="border max-w-[384px] md:w-[46%]">
           <div className="flex justify-between items-center px-5 mt-8">
             <img className="w-[70px]" src={ProcIcon3} alt="" />
             <h3 className="text-4xl bg-primary rounded-full w-[80px] h-[80px] flex items-center justify-center text-white font-bold">

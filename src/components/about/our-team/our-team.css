@@ -1,0 +1,41 @@
+.chef-img-bg {
+    height: 170px;
+    width: 170px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.chef-hover-bg {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+}
+.chef-wrap {
+    position: relative;
+}
+.overley-chef {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.403);
+    z-index: 1;
+}
+
+
+/* hover  */
+
+.chef-wrap:hover .chef-hover-bg{
+    opacity: 1;
+}
