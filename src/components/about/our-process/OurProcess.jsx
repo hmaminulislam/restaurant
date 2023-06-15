@@ -7,7 +7,6 @@ import ProcIcon2 from "../../../assets/about-us/our-process/p-icon-2.png";
 import ProcIcon3 from "../../../assets/about-us/our-process/p-icon-3.png";
 import ProcIcon4 from "../../../assets/about-us/our-process/p-icon-4.png";
 import { Link } from "react-router-dom";
-import "../our-process/our-process.css";
 
 function OurProcess() {
   return (
