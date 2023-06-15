@@ -20,12 +20,12 @@ function DownloadApp() {
           </p>
           <div className="flex items-center gap-5 mt-5 justify-center lg:justify-start">
             <img
-              className="sm:max-w-[200px] max-w-[140px]"
+              className="sm:max-w-[200px] max-w-[140px] cursor-pointer"
               src={GoogleImg}
               alt=""
             />{" "}
             <img
-              className="sm:max-w-[200px] max-w-[140px]"
+              className="sm:max-w-[200px] max-w-[140px] cursor-pointer"
               src={AppImg}
               alt=""
             />

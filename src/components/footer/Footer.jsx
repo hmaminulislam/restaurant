@@ -82,16 +82,19 @@ function Footer() {
           <div>
             <h4 className="footer-heading">Contact Us</h4>
             <div className="mt-5">
-              <div className="flex items-center gap-3 border-b border-orange-600 pb-5 mb-4">
-                <IoIosCall className="text-[22px]" /> +049 04394 0934
-              </div>
-              <div className="flex items-center gap-3 border-b border-orange-600 pb-5 mb-4">
+                <Link
+                  className="flex items-center gap-2 border-b border-orange-600 pb-5 mb-4"
+                  to="tel:+049 04394 0934"
+                >
+                  <IoIosCall className="text-[22px]" /> +049 04394 0934
+                </Link>
+              <Link to="mailto:dexos@gmail.com" className="flex items-center gap-3 border-b border-orange-600 pb-5 mb-4">
                 <FaEnvelope className="text-[18px]" /> dexos@gmail.com
-              </div>
-              <div className="flex items-center gap-3 border-b border-orange-600 pb-5 mb-4">
+              </Link>
+              <Link className="flex items-center gap-3 border-b border-orange-600 pb-5 mb-4">
                 <MdLocationPin className="text-[22px]" /> Blackwell Street,Dry
                 Creek,Alaska
-              </div>
+              </Link>
             </div>
           </div>
         </div>

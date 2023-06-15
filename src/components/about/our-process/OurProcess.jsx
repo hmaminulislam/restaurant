@@ -1,12 +1,13 @@
-import DividerImg from '../../../assets/our-services/sec-title-1.png';
-import ProcessImg1 from '../../../assets/about-us/our-process/process-1.jpg';
-import ProcessImg2 from '../../../assets/about-us/our-process/process-2.jpg';
-import ProcessImg3 from '../../../assets/about-us/our-process/process-3.jpg';
-import ProcIcon1 from '../../../assets/about-us/our-process/p-icon-1.png';
-import ProcIcon2 from '../../../assets/about-us/our-process/p-icon-2.png';
-import ProcIcon3 from '../../../assets/about-us/our-process/p-icon-3.png';
-import ProcIcon4 from '../../../assets/about-us/our-process/p-icon-4.png';
-import { Link } from 'react-router-dom';
+import DividerImg from "../../../assets/our-services/sec-title-1.png";
+import ProcessImg1 from "../../../assets/about-us/our-process/process-1.jpg";
+import ProcessImg2 from "../../../assets/about-us/our-process/process-2.jpg";
+import ProcessImg3 from "../../../assets/about-us/our-process/process-3.jpg";
+import ProcIcon1 from "../../../assets/about-us/our-process/p-icon-1.png";
+import ProcIcon2 from "../../../assets/about-us/our-process/p-icon-2.png";
+import ProcIcon3 from "../../../assets/about-us/our-process/p-icon-3.png";
+import ProcIcon4 from "../../../assets/about-us/our-process/p-icon-4.png";
+import { Link } from "react-router-dom";
+import "../our-process/our-process.css";
 
 function OurProcess() {
   return (
@@ -22,10 +23,10 @@ function OurProcess() {
       {/* process boxes */}
       <div className="flex flex-col items-center md:items-start md:flex-row flex-wrap lg:flex-nowrap gap-14 mt-16">
         {/* prcess box start */}
-        <div className="border max-w-[384px] md:w-[46%]">
+        <div className="border max-w-[384px] md:w-[46%] pro-box">
           <div className="flex justify-between items-center px-5 mt-8">
             <img className="w-[70px]" src={ProcIcon1} alt="" />
-            <h3 className="text-4xl bg-primary rounded-full w-[80px] h-[80px] flex items-center justify-center text-white font-bold">
+            <h3 className="sm:text-4xl text-[30px] text-white font-bold bg-primary rounded-full sm:w-[80px] w-[70px] h-[70px] sm:h-[80px] flex items-center justify-center">
               01
             </h3>
           </div>
@@ -48,7 +49,7 @@ function OurProcess() {
         <div className="border max-w-[384px] md:w-[46%]">
           <div className="flex justify-between items-center px-5 mt-8">
             <img className="w-[70px]" src={ProcIcon2} alt="" />
-            <h3 className="text-4xl bg-primary rounded-full w-[80px] h-[80px] flex items-center justify-center text-white font-bold">
+            <h3 className="sm:text-4xl text-[30px] bg-primary rounded-full sm:w-[80px] w-[70px] h-[70px] sm:h-[80px] flex items-center justify-center text-white font-bold">
               02
             </h3>
           </div>
@@ -71,7 +72,7 @@ function OurProcess() {
         <div className="border max-w-[384px] md:w-[46%]">
           <div className="flex justify-between items-center px-5 mt-8">
             <img className="w-[70px]" src={ProcIcon3} alt="" />
-            <h3 className="text-4xl bg-primary rounded-full w-[80px] h-[80px] flex items-center justify-center text-white font-bold">
+            <h3 className="sm:text-4xl text-[30px] bg-primary rounded-full sm:w-[80px] w-[70px] h-[70px] sm:h-[80px] flex items-center justify-center text-white font-bold">
               03
             </h3>
           </div>
@@ -116,4 +117,4 @@ function OurProcess() {
   );
 }
 
-export default OurProcess
+export default OurProcess;
