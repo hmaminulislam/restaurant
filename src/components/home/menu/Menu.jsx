@@ -8,7 +8,7 @@ import FoodMenu6 from "../../../assets/food-menu/food-menu-6.jpg";
 import FoodMenu7 from "../../../assets/food-menu/food-menu-7.jpg";
 import FoodMenu8 from "../../../assets/food-menu/food-menu-8.jpg";
 import ServiceDivider from "../../../assets/our-services/sec-title-1.png";
-import { Fade } from "react-reveal";
+import { Slide } from "react-awesome-reveal";
 
 function Menu() {
   return (
@@ -16,17 +16,17 @@ function Menu() {
       <div className="max-w-[1300px] mx-auto px-5 py-20">
         {/* section heading start */}
         <div className="text-center">
-          <Fade bottom>
+          <Slide direction="up" triggerOnce={true}>
             <h4 className="caveat-font text-3xl text-primary">From Our Menu</h4>
-          </Fade>
-          <Fade bottom>
+          </Slide>
+
+          <Slide direction="up" triggerOnce={true}>
             <h2 className="text-4xl sm:text-5xl font-semibold my-4">
               Delicious Food Forever
             </h2>
-          </Fade>
-          <Fade bottom>
-            <img className="mx-auto mb-4" src={ServiceDivider} alt="" />
-          </Fade>
+          </Slide>
+
+          <img className="mx-auto mb-4" src={ServiceDivider} alt="" />
         </div>
         {/* section heading end */}
         {/* section menus */}

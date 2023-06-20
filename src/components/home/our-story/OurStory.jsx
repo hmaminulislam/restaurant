@@ -3,9 +3,8 @@ import AboutImg1 from '../../../assets/our-story/about-1.png';
 import AboutImg2 from '../../../assets/our-story/about-2.png';
 import ShapImg from '../../../assets/our-story/shape-2.png';
 import VictorImg from '../../../assets/our-story/vector-1.png';
-import Slide from 'react-reveal/Slide';
-import Fade from 'react-reveal/Fade';
 import '../../home/our-story/our-story.css'
+import { Slide } from 'react-awesome-reveal';
 
 function OurStory() {
   return (
@@ -13,23 +12,23 @@ function OurStory() {
       <div className="lg:flex items-center justify-between gap-12">
         {/* Our story left start */}
         <div className="lg:w-1/2 max-w-[600px] text-center lg:text-left md:mx-auto lg:mx-0">
-          <Fade bottom>
+          <Slide direction="up" triggerOnce={true}>
             <h4 className="caveat-font text-3xl text-primary">Our Story</h4>
-          </Fade>
-          <Fade bottom>
+          </Slide>
+          <Slide direction="up" triggerOnce={true}>
             <h2 className="sm:text-5xl text-4xl font-semibold my-4">
               Traditional & Modern Service{" "}
               <span className="text-primary">Since 2004</span>{" "}
             </h2>
-          </Fade>
-          <Fade bottom>
+          </Slide>
+          <Slide direction="up" triggerOnce={true}>
             <p className="font-[300] my-10">
               Ut neque turpis dolor sit amet consectetur adipiscing elit purus
               egestas diam sit vitae egestas suspendisse amet ultricies eu. Eget
               at porttitor morbi blandit ac vitae, dolor. Gravida eu vel ac
               luctus. Hac a vel est malesuada tellus sed nunc, etiam maecenas.
             </p>
-          </Fade>
+          </Slide>
           <img className="mb-10 mx-auto lg:mx-0" src={Signature} alt="" />
           <button className="btn-bg-primary ps-6 pe-5 py-3 text-white rounded-full">
             Our Story
@@ -39,10 +38,10 @@ function OurStory() {
 
         {/* Our story right start */}
         <div className="lg:w-1/2 max-w-[600px] mx-auto lg:mx-0 relative mt-20 lg:mt-0">
-          <div className="bg-rounder-men"></div>
-          <Slide bottom>
-            <img className="z-10" src={AboutImg1} alt="" />
-          </Slide>
+          <div className="bg-rounder-men z-[-1]"></div>
+
+          <img className="z-10" src={AboutImg1} alt="" />
+
           <img
             className="absolute right-0 top-[-40px] z-[-1]"
             src={ShapImg}

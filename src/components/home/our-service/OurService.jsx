@@ -10,29 +10,29 @@ import SliderImage4 from "../../../assets/our-services/service-img-4.jpg";
 import SliderImage5 from "../../../assets/our-services/service-img-5.png";
 import '../our-service/our-service.css';
 import { MdKeyboardArrowRight } from "react-icons/md";
-import { Fade } from "react-reveal";
+import { Slide } from "react-awesome-reveal";
 
 function OurService() {
   return (
     <div className="max-w-[1300px] mx-auto px-5 py-20">
       {/* section heading start */}
       <div className="text-center max-w-[450px] mx-auto">
-        <Fade bottom>
+        <Slide direction="up" triggerOnce={true}>
           <h4 className="caveat-font text-3xl text-primary">
             Corporate Applications
           </h4>
-        </Fade>
-        <Fade bottom>
+        </Slide>
+        <Slide direction="up" triggerOnce={true}>
           <h2 className="text-4xl sm:text-5xl font-semibold my-4">
             Our Services
           </h2>
-        </Fade>
-        <Fade bottom>
+        </Slide>
+        <Slide direction="up" triggerOnce={true}>
           <p>
             Assertively myocardinate robust e-tailers for extensible human
             capital. dpropriately benchmark networks.
           </p>
-        </Fade>
+        </Slide>
         <img className="mx-auto mt-8" src={ServiceDivider} alt="" />
       </div>
       {/* section heading end  */}

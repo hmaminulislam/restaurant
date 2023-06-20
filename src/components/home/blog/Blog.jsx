@@ -7,20 +7,20 @@ import AuthorImg3 from "../../../assets/blog/author-3.png";
 import { BsArrowRight } from "react-icons/bs";
 import { FaRegComments } from "react-icons/fa";
 import '../../home/blog/blog.css'
-import { Fade } from "react-reveal";
+import { Slide } from "react-awesome-reveal";
 
 function Blog() {
   return (
     <div className="max-w-[1300px] mx-auto px-5 py-20">
       <div className="mb-10">
-        <Fade bottom>
+        <Slide direction="up" triggerOnce={true}>
           <h4 className="caveat-font text-3xl text-primary">News & Blogs</h4>
-        </Fade>
-        <Fade bottom>
+        </Slide>
+        <Slide direction="up" triggerOnce={true}>
           <h2 className="text-4xl sm:text-5xl font-semibold mt-2">
             Our Latest Foods Blog
           </h2>
-        </Fade>
+        </Slide>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 sm:justify-start lg:justify-between gap-y-10 lg:gap-x-10 sm:gap-x-5">
         {/* blog card start */}
