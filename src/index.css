@@ -33,3 +33,9 @@ body {
 .text-secondary {
   color: #212789;
 }
+
+/* border */
+
+.border-primary {
+  border-color: #FE5D26;
+}

@@ -19,7 +19,7 @@ function Hero() {
           </Slide>
 
           <Slide direction="up" triggerOnce={true}>
-            <button className="bg-white text-primary font-semibold py-[10px] px-6 rounded-sm">
+            <button className="bg-primary text-white border-2 border-white font-semibold py-[10px] px-6 rounded-sm">
               Read More
             </button>
           </Slide>

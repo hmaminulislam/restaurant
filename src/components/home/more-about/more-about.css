@@ -8,6 +8,7 @@
     font-weight: 700;
     line-height: 85px;
     margin-bottom: 4px;
+    transition: all 0.3s ease;
 }
 .counter-wrap:hover .counter-text {
     color: #FE5D26;

@@ -38,7 +38,7 @@ function Menu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl sm:font-semibold menu-item-title">
                   Raw Scallops from Erquy
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
@@ -60,7 +60,7 @@ function Menu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl sm:font-semibold menu-item-title">
                   Greek Salab
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
@@ -82,7 +82,7 @@ function Menu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl sm:font-semibold menu-item-title">
                   Tender Octopus and Fennel
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
@@ -104,7 +104,7 @@ function Menu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl sm:font-semibold menu-item-title">
                   Celeriac and Truffle Ravioli
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
@@ -126,7 +126,7 @@ function Menu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl sm:font-semibold menu-item-title">
                   Broccoli and Chorizo Fritters
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
@@ -148,7 +148,7 @@ function Menu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl sm:font-semibold menu-item-title">
                   Peri peri chicken burger
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
@@ -170,7 +170,7 @@ function Menu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl sm:font-semibold menu-item-title">
                   Chicken & Sundried tomato
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>
@@ -192,7 +192,7 @@ function Menu() {
             </div>
             <div className="w-full">
               <div className="sm:flex justify-between items-center gap-2 mb-2">
-                <h3 className="text-xl sm:text-2xl font-semibold menu-item-title">
+                <h3 className="text-xl sm:text-2xl sm:font-semibold menu-item-title">
                   Bruno&apos;s Scribble
                 </h3>
                 <div className="border-b grow hidden sm:block"></div>

@@ -40,7 +40,7 @@ export default function Header() {
     const maxDate = `${year}-${nextMonth}-${date + 6}`
 
     // Time conditon 
-    console.log(timeHour - 5)
+
 
     // disabled pased hour
 
