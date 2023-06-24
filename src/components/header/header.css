@@ -2,3 +2,34 @@
     border-radius: 0;
     padding: 0;
 }
+.navbar {
+    background-color: #fff;
+    position: fixed;
+    width: 100% !important;
+    left: 0;
+    padding: 20px 16px;
+    transition: all 0.4s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        background-color: transparent;
+        position: static;
+        width: auto;
+    }
+}
+
+.show-nav {
+    transform: translateY(0);
+    z-index: 9;
+}
+
+.hidden-nav {
+    transform: translateY(-300px);
+}
+
+@media (min-width: 768px) {
+    .hidden-nav {
+        transform: translateY(0);
+    }
+}

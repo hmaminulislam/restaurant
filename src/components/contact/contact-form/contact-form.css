@@ -1,8 +1,8 @@
 .input:focus{
-    outline: none;
+    outline: none !important;
     border-color: #212789;
 }
 .textarea:focus {
-    outline: none;
+    outline: none !important;
     border-color: #212789;
 }
