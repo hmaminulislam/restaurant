@@ -5,13 +5,13 @@ import { useEffect, useState } from 'react';
 import { Cube } from "react-preloaders";
 
 export default function Main() {
-  const [loading, setLoading] = useState(true)
-  useEffect(() => {
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    }, 4000)
-  },[])
+  const [loading, setLoading] = useState(false)
+  // useEffect(() => {
+  //   setLoading(true)
+  //   setTimeout(() => {
+  //     setLoading(false)
+  //   }, 4000)
+  // },[])
   return (
     <>
       {loading ? (

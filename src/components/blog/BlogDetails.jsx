@@ -1,7 +1,12 @@
-import React from 'react'
+import { useLoaderData } from "react-router-dom"
 
-export default function BlogDetails() {
+
+function BlogDetails() {
+  const data = useLoaderData()
+  console.log(data)
   return (
     <div>BlogDetails</div>
   )
 }
+
+export default BlogDetails
