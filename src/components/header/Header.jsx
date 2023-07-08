@@ -83,7 +83,7 @@ export default function Header() {
             </ul>
             <button
               onClick={() => window.BookPopUp.showModal()}
-              className="btn-bg-primary text-white font-semibold py-[10px] px-6 rounded-sm hidden md:block"
+              className="btn-bg-primary text-white font-semibold py-[10px] px-6 rounded-full hidden md:block"
             >
               Book Now
             </button>

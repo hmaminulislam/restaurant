@@ -1,4 +1,4 @@
-import { Link, useLoaderData, useLocation } from "react-router-dom"
+import { Link, useLoaderData } from "react-router-dom"
 import './blog-details.css'
 import { BsFillTagsFill, BsArrowRight } from "react-icons/bs";
 import { MdDateRange } from "react-icons/md";
@@ -18,8 +18,6 @@ function BlogDetails() {
     };
     getData();
   }, []);
-  const location = useLocation()
-  console.log(location)
   return (
     <div>
       <div className="blog-details-hero sm:h-[300px] h-[180px] flex justify-center items-center">
@@ -102,7 +100,7 @@ function BlogDetails() {
             <div className="flex flex-col gap-[35px]">
               {/* blog item  */}
               {latestBlogs.map((blog) => (
-                <>
+                <div key={blog._id}>
                   <Link to={`/blog/${blog._id}`} className="blog-side-item">
                     <div className="flex gap-[14px]">
                       <div>
@@ -123,7 +121,7 @@ function BlogDetails() {
                       </div>
                     </div>
                   </Link>
-                </>
+                </div>
               ))}
             </div>
           </div>

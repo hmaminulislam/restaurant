@@ -1,22 +1,25 @@
 import { BsArrowRight } from 'react-icons/bs';
 import { FaRegComments } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import './blog-card.css'
 
 function BlogCard({ blog }) {
     const {fetureImg, category,authorImg, author, name, _id, summary} = blog
   return (
     <div className="border rounded-[5px] max-w-[390px] mx-auto sm:mx-0 blog-box">
       <div className="blog-box-img-wrap">
-        <img
-          className="w-full h-[260px] blog-box-img rounded-t-[5px]"
-          src={fetureImg}
-          alt=""
-        />
+        <Link to={`/blog/${_id}`}>
+          <img
+            className="w-full h-[260px] blog-box-img rounded-t-[5px]"
+            src={fetureImg}
+            alt=""
+          />
+        </Link>
       </div>
       <div className="py-5 px-5 relative">
-        <button className="btn-bg-primary text-white py-1 px-4 text-sm absolute right-[20px] top-[-8px]">
+        <p className="btn-bg-primary text-white py-1 px-4 text-sm absolute right-[20px] top-[-8px]">
           {category}
-        </button>
+        </p>
         <div className="flex items-center gap-4 mb-4">
           <img
             className="w-[60px] h-[60px] rounded-full border-[5px] border-white shadow-md"
@@ -36,7 +39,7 @@ function BlogCard({ blog }) {
         </p>
         <div className="border-b my-4"></div>
         <div className="flex items-center justify-between">
-          <Link to={`/blog/${_id}`}>
+          <Link to={`/blog/${_id}`} className="card-read-btn">
             <button className="blog-box-btn flex items-center gap-3">
               Read More <BsArrowRight />
             </button>

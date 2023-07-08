@@ -5,6 +5,7 @@ import ShapImg from '../../../assets/our-story/shape-2.png';
 import VictorImg from '../../../assets/our-story/vector-1.png';
 import '../../home/our-story/our-story.css'
 import { Slide } from 'react-awesome-reveal';
+import { Link } from 'react-router-dom';
 
 function OurStory() {
   return (
@@ -30,9 +31,11 @@ function OurStory() {
             </p>
           </Slide>
           <img className="mb-10 mx-auto lg:mx-0" src={Signature} alt="" />
-          <button className="btn-bg-primary ps-6 pe-5 py-3 text-white rounded-full">
-            Our Story
-          </button>
+          <Link to='/about'>
+            <button className="btn-bg-primary ps-6 pe-5 py-3 text-white rounded-full">
+              Our Story
+            </button>
+          </Link>
         </div>
         {/* Our story left end  */}
 
@@ -41,7 +44,6 @@ function OurStory() {
           <div className="bg-rounder-men z-[-1]"></div>
 
           <img className="z-10" src={AboutImg1} alt="" />
-
           <img
             className="absolute right-0 top-[-40px] z-[-1]"
             src={ShapImg}

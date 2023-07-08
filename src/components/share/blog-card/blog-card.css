@@ -1,0 +1,6 @@
+.card-read-btn svg {
+    transition: all 0.4s ease;
+}
+.card-read-btn:hover svg {
+    transform: translateX(8px);
+}

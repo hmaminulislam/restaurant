@@ -27,7 +27,7 @@ function MoreAbout() {
         </Slide>
         <Slide direction="up" triggerOnce={true}>
           <Link to="/about">
-            <button className="btn-bg-primary py-3 px-8 text-white rounded-sm">
+            <button className="btn-bg-primary py-3 px-[28px] text-white rounded-full">
               More About Us
             </button>
           </Link>

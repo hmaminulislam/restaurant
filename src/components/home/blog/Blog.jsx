@@ -28,10 +28,10 @@ function Blog() {
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 sm:justify-start lg:justify-between gap-y-10 lg:gap-x-10 sm:gap-x-5">
         {/* blog card start */}
-        {latestData.map((blog, index) => (
-          <>
-            <BlogCard key={index} blog={blog} />
-          </>
+        {latestData.map((blog) => (
+          <div key={blog._id}>
+            <BlogCard blog={blog} />
+          </div>
         ))}
         {/* blog card end */}
       </div>
