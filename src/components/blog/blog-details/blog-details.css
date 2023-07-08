@@ -1,0 +1,36 @@
+.blog-details-hero {
+    background: url("https://i.ibb.co/1MRNCXg/9.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.blog-side-item h5 {
+    transition: all 0.4s ease;
+}
+.cate-div svg, p {
+    transition: all 0.4s ease;
+}
+.tag-btn {
+    background-color: #FE5D26;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    transition: all 0.4s ease;
+}
+
+
+
+.blog-side-item:hover h5 {
+    color: #FE5D26;
+}
+.cate-div:hover svg {
+    color: #FE5D26;
+}
+.cate-div:hover p {
+    color: #FE5D26;
+}
+.tag-btn:hover {
+    background-color: #fff;
+    color: #FE5D26;
+}

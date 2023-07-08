@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router-dom"
+import { Link, useLoaderData, useLocation } from "react-router-dom"
 import './blog-details.css'
 import { BsFillTagsFill, BsArrowRight } from "react-icons/bs";
 import { MdDateRange } from "react-icons/md";
@@ -18,8 +18,8 @@ function BlogDetails() {
     };
     getData();
   }, []);
-
-  console.log(data)
+  const location = useLocation()
+  console.log(location)
   return (
     <div>
       <div className="blog-details-hero sm:h-[300px] h-[180px] flex justify-center items-center">
@@ -103,24 +103,26 @@ function BlogDetails() {
               {/* blog item  */}
               {latestBlogs.map((blog) => (
                 <>
-                  <div className="flex gap-[14px]">
-                    <div className="">
-                      <img
-                        className="max-w-[90px] h-full rounded-[1px]"
-                        src={blog.fetureImg}
-                        alt=""
-                      />
-                    </div>
-                    <div>
-                      <h5 className="font-[400] text-[17px]">{blog.name}</h5>
-                      <div className="flex items-center gap-[3px]">
-                        <MdDateRange />
-                        <p className="text-xs font-[300] mt-[5px]">
-                          30 Jun, 2023
-                        </p>
+                  <Link to={`/blog/${blog._id}`} className="blog-side-item">
+                    <div className="flex gap-[14px]">
+                      <div>
+                        <img
+                          className="max-w-[90px] h-full rounded-[1px]"
+                          src={blog.fetureImg}
+                          alt=""
+                        />
+                      </div>
+                      <div>
+                        <h5 className="font-[400] text-[17px]">{blog.name}</h5>
+                        <div className="flex items-center gap-[3px]">
+                          <MdDateRange />
+                          <p className="text-xs font-[300] mt-[5px]">
+                            30 Jun, 2023
+                          </p>
+                        </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 </>
               ))}
             </div>
@@ -129,23 +131,23 @@ function BlogDetails() {
           <div className="bg-[#F8F1ED] px-[24px] py-[30px] mt-[50px]">
             <h4 className="font-[500] text-[24px] mb-[14px]">Categories</h4>
             <div className="flex flex-col gap-[20px]">
-              <div className="flex items-center gap-[8px]">
-                <BsArrowRight />
+              <div className="flex items-center gap-[8px] cate-div">
+                <BsArrowRight className="cate-icon" />
                 <p>Food</p>
               </div>
-              <div className="flex items-center gap-[8px]">
+              <div className="flex items-center gap-[8px] cate-div">
                 <BsArrowRight />
                 <p>Inspiration</p>
               </div>
-              <div className="flex items-center gap-[8px]">
+              <div className="flex items-center gap-[8px] cate-div">
                 <BsArrowRight />
                 <p>Lifestyle</p>
               </div>
-              <div className="flex items-center gap-[8px]">
+              <div className="flex items-center gap-[8px] cate-div">
                 <BsArrowRight />
                 <p>Recipes</p>
               </div>
-              <div className="flex items-center gap-[8px]">
+              <div className="flex items-center gap-[8px] cate-div">
                 <BsArrowRight />
                 <p>World</p>
               </div>
@@ -158,19 +160,19 @@ function BlogDetails() {
           <div className="bg-[#F8F1ED] px-[24px] py-[30px] mt-[50px]">
             <h4 className="font-[500] text-[24px] mb-[14px]">Tag</h4>
             <div className="flex gap-5 flex-wrap">
-              <button className="bg-primary text-sm text-white px-4 py-[5px]">
+              <button className="tag-btn">
                 Food
               </button>
-              <button className="bg-primary text-sm text-white px-4 py-[5px]">
+              <button className="tag-btn">
                 Lifestyle
               </button>
-              <button className="bg-primary text-sm text-white px-4 py-[5px]">
+              <button className="tag-btn">
                 Pizza
               </button>
-              <button className="bg-primary text-sm text-white px-4 py-[5px]">
+              <button className="tag-btn">
                 Restaurant
               </button>
-              <button className="bg-primary text-sm text-white px-4 py-[5px]">
+              <button className="tag-btn">
                 Vincent
               </button>
             </div>

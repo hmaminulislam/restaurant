@@ -3,9 +3,9 @@ import About from "../components/about/About";
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import OurMenu from "../components/our-menu/OurMenu";
-import Blog from "../components/blog/Blog";
 import Contact from "../components/contact/Contact";
-import BlogDetails from "../components/blog/BlogDetails";
+import BlogDetails from "../components/blog/blog-details/BlogDetails";
+import Blog from "../components/blog/blog/Blog";
 const router = createBrowserRouter([
   {
     path: "/",
