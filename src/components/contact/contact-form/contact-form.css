@@ -6,3 +6,11 @@
     outline: none !important;
     border-color: #212789;
 }
+input::placeholder {
+    font-weight: 300;
+    font-size: 16px;
+}
+.textarea::placeholder {
+    font-weight: 300;
+    font-size: 16px;
+}

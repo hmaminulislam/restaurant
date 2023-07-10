@@ -1,4 +1,3 @@
-import React from 'react'
 import '../contact-form/contact-form.css'
 
 function ContactForm() {
@@ -25,7 +24,7 @@ function ContactForm() {
                 </label>
                 <input
                   type="text"
-                  placeholder="your name"
+                  placeholder="Your name"
                   className="input input-bordered w-full"
                 />
               </div>
@@ -38,7 +37,7 @@ function ContactForm() {
                 </label>
                 <input
                   type="email"
-                  placeholder="your email"
+                  placeholder="Your email"
                   className="input input-bordered w-full"
                 />
               </div>
@@ -53,7 +52,7 @@ function ContactForm() {
                 </label>
                 <input
                   type="tel"
-                  placeholder="your phone"
+                  placeholder="Your phone"
                   className="input input-bordered w-full"
                 />
               </div>
@@ -66,7 +65,7 @@ function ContactForm() {
                 </label>
                 <input
                   type="text"
-                  placeholder="your service"
+                  placeholder="Your service"
                   className="input input-bordered w-full"
                 />
               </div>
@@ -80,7 +79,7 @@ function ContactForm() {
               </label>
               <textarea
                 className="textarea textarea-bordered w-full h-[150px]"
-                placeholder="your message..."
+                placeholder="Your message..."
               ></textarea>
             </div>
             <button className="py-[15px] px-[40px] text-[18px] font-[600] mx-auto bg-secondary text-white block mt-8 rounded-full">

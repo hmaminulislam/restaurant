@@ -4,10 +4,16 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+.blog-hero-overley {
+    background-color: rgba(0, 0, 0, 0.528);
+}
 .blog-side-item h5 {
     transition: all 0.4s ease;
 }
 .cate-div svg, p {
+    transition: all 0.4s ease;
+}
+.breadcamp-home p {
     transition: all 0.4s ease;
 }
 .tag-btn {
@@ -32,5 +38,8 @@
 }
 .tag-btn:hover {
     background-color: #fff;
+    color: #FE5D26;
+}
+.breadcamp-home:hover p {
     color: #FE5D26;
 }

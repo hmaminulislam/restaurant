@@ -48,19 +48,19 @@ function Footer() {
             <div className="mt-4">
               <ul className="flex flex-col gap-3 list-[square] ml-6">
                 <li>
-                  <Link to="/">Home</Link>
+                  <Link className='footer-link' to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/our-menu">Our Menu</Link>
+                  <Link className='footer-link' to="/our-menu">Our Menu</Link>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <Link className='footer-link' to="/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/contact">Contact</Link>
+                  <Link className='footer-link' to="/contact">Contact</Link>
                 </li>
                 <li>
-                  <Link to="/blog">Blog</Link>
+                  <Link className='footer-link' to="/blog">Blog</Link>
                 </li>
               </ul>
             </div>

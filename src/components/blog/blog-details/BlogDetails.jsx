@@ -4,6 +4,8 @@ import { BsFillTagsFill, BsArrowRight } from "react-icons/bs";
 import { MdDateRange } from "react-icons/md";
 import { useEffect } from "react";
 import { useState } from "react";
+import { FaHome } from "react-icons/fa";
+import { IoIosArrowForward } from "react-icons/io";
 
 
 function BlogDetails() {
@@ -20,14 +22,31 @@ function BlogDetails() {
   }, []);
   return (
     <div>
-      <div className="blog-details-hero sm:h-[300px] h-[180px] flex justify-center items-center">
-        <h2 className="text-white sm:text-5xl text-4xl font-semibold">
-          {data.name}
-        </h2>
+      {/* breadcamb section  */}
+      <div className="blog-details-hero">
+        <div className="blog-hero-overley sm:h-[400px] h-[280px] flex flex-col justify-between">
+          <div className="h-[300px] flex justify-center items-center">
+            <h2 className="text-white sm:text-4xl text-2xl text-center px-5">
+              {data.name}
+            </h2>
+          </div>
+          <div className="h-[100px] flex items-center justify-center gap-[8px] border-t border-gray-500">
+            <Link to="/" className="flex items-center gap-[8px] breadcamp-home">
+              <span className="bg-primary text-white rounded-full w-[28px] sm:w-[34px] h-[28px] sm:h-[34px] flex items-center justify-center">
+                <FaHome className="sm:text-[20px]" />
+              </span>
+              <p className="text-white text-sm sm:text-base">Home</p>
+            </Link>
+            <Link to={"/blog"} className="flex items-center gap-[8px]">
+              <IoIosArrowForward className="text-primary sm:text-[20px]" />
+              <p className="text-primary text-sm sm:text-base">Blog</p>
+            </Link>
+          </div>
+        </div>
       </div>
-      <div className="max-w-[1300px] mx-auto px-5 py-20 flex justify-between gap-10">
+      <div className="max-w-[1300px] mx-auto px-5 py-20 flex flex-col lg:flex-row items-center lg:items-start justify-between gap-10">
         {/* blog left side */}
-        <div className="max-w-[800px]">
+        <div className="xl:max-w-[800px] lg:w-[65%]">
           {/* feature image */}
           <div className="relative">
             <img src={data.fetureImg} alt="" />
@@ -93,7 +112,7 @@ function BlogDetails() {
           </div>
         </div>
         {/* blog right side  */}
-        <div className="max-w-[460px]">
+        <div className="xl:max-w-[460px] lg:w-[35%]">
           {/* blogs  */}
           <div className="bg-[#F8F1ED] px-[24px] py-[30px]">
             <h4 className="font-[500] text-[24px] mb-[14px]">Recent Posts</h4>
@@ -158,21 +177,11 @@ function BlogDetails() {
           <div className="bg-[#F8F1ED] px-[24px] py-[30px] mt-[50px]">
             <h4 className="font-[500] text-[24px] mb-[14px]">Tag</h4>
             <div className="flex gap-5 flex-wrap">
-              <button className="tag-btn">
-                Food
-              </button>
-              <button className="tag-btn">
-                Lifestyle
-              </button>
-              <button className="tag-btn">
-                Pizza
-              </button>
-              <button className="tag-btn">
-                Restaurant
-              </button>
-              <button className="tag-btn">
-                Vincent
-              </button>
+              <button className="tag-btn">Food</button>
+              <button className="tag-btn">Lifestyle</button>
+              <button className="tag-btn">Pizza</button>
+              <button className="tag-btn">Restaurant</button>
+              <button className="tag-btn">Vincent</button>
             </div>
           </div>
         </div>

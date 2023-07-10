@@ -32,7 +32,7 @@ function BlogCard({ blog }) {
           </div>
         </div>
         <Link to={`/blog/${_id}`}>
-          <h3 className="text-[26px] font-[700] blog-box-title">{name}</h3>
+          <h3 className="text-[24px] font-[500] blog-box-title">{name}</h3>
         </Link>
         <p className="text-sm font-[300] mt-2">
           {`${summary.slice(0, 125)} ...`}
