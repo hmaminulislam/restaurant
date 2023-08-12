@@ -2,6 +2,7 @@ import Burger from "../../../assets/hero/burger.png";
 import "../hero/hero.css";
 import BgShap from "../../../assets/hero/hero-bg-shap.png";
 import { Slide } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 
 function Hero() {
   return (
@@ -19,9 +20,9 @@ function Hero() {
           </Slide>
 
           <Slide direction="up" triggerOnce={true}>
-            <button className="bg-primary text-white border-2 border-white font-semibold py-[10px] px-6 rounded-full">
+            <Link to={'/blog'} className="bg-primary text-white border-2 border-white font-semibold py-[10px] px-6 rounded-full">
               Read More
-            </button>
+            </Link>
           </Slide>
           <img className="hero-content-shap" src={BgShap} alt="" />
         </div>
