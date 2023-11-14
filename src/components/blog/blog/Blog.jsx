@@ -12,7 +12,7 @@ function Blog() {
   const size = 6;
   const pages = Math.ceil(count / size);
   useEffect(() => {
-    fetch(`http://localhost:5000/api/v1/blogs?size=${size}&page=${page}`)
+    fetch(`https://dexos.vercel.app/api/v1/blogs?size=${size}&page=${page}`)
       .then((res) => res.json())
       .then((data) => {
         setCount(data?.count);

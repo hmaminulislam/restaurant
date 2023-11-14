@@ -14,7 +14,7 @@ function BlogDetails() {
   const latestBlogs = blogs.slice(0, 4);
   useEffect(() => {
     const getData = async () => {
-      const res = await fetch(`http://localhost:5000/api/v1/blog`);
+      const res = await fetch(`https://dexos.vercel.app/api/v1/blog`);
       const data = await res.json();
       setBlogs(data);
     };

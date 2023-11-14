@@ -66,19 +66,29 @@ export default function Header() {
           <div className="md:flex items-center justify-end gap-10 w-full">
             <ul className="md:flex md:gap-8 w-full md:w-auto">
               <li className="font-semibold my-3 md:my-0 border-b border-gray-200 md:border-0 pb-2 md:pb-0 hover:text-[#FE5D26] transition duration-300">
-                <NavLink to="/">Home</NavLink>
+                <NavLink onClick={() => setShow(true)} to="/">
+                  Home
+                </NavLink>
               </li>
               <li className="font-semibold my-3 md:my-0 border-b border-gray-200 md:border-0 pb-2 md:pb-0 hover:text-[#FE5D26] transition duration-300">
-                <NavLink to="/our-menu">Our Menu</NavLink>
+                <NavLink onClick={() => setShow(true)} to="/our-menu">
+                  Our Menu
+                </NavLink>
               </li>
               <li className="font-semibold my-3 md:my-0 border-b border-gray-200 md:border-0 pb-2 md:pb-0 hover:text-[#FE5D26] transition duration-300">
-                <NavLink to="/about">About</NavLink>
+                <NavLink onClick={() => setShow(true)} to="/about">
+                  About
+                </NavLink>
               </li>
               <li className="font-semibold my-3 md:my-0 border-b border-gray-200 md:border-0 pb-2 md:pb-0 hover:text-[#FE5D26] transition duration-300">
-                <NavLink to="/contact">Contact</NavLink>
+                <NavLink onClick={() => setShow(true)} to="/contact">
+                  Contact
+                </NavLink>
               </li>
               <li className="font-semibold my-3 md:my-0 border-b border-gray-200 md:border-0 pb-2 md:pb-0 hover:text-[#FE5D26] transition duration-300">
-                <NavLink to="/blog">Blog</NavLink>
+                <NavLink onClick={() => setShow(true)} to="/blog">
+                  Blog
+                </NavLink>
               </li>
             </ul>
             <button

@@ -33,7 +33,7 @@ function DownloadApp() {
         </div>
         <div className="relative">
           <img
-            className="mt-[-100px] sm:max-w-[500px] max-w-[380px] lg:w-auto"
+            className="mt-[-100px] sm:max-w-[500px] max-w-[300px] lg:w-auto"
             src={EshopImg}
             alt=""
           />

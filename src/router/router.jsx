@@ -35,7 +35,7 @@ const router = createBrowserRouter([
         path: "blog/:id",
         element: <BlogDetails />,
         loader: async ({ params }) => {
-          return fetch(`http://localhost:5000/api/v1/blog/${params.id}`);
+          return fetch(`https://dexos.vercel.app/api/v1/blog/${params.id}`);
         },
       },
     ],
